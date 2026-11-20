@@ -1,0 +1,57 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+fake_news_pro/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Model training checkpoints
+runs/
+wandb/
+
+# Large raw datasets - review before uploading
+data/raw/
+*.zip
+*.rar
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+
+# Original large Fakeddit datasets
+/multimodal_train.tsv
+/multimodal_test_public.tsv
+/multimodal_validate.tsv
+
+# All Jupyter checkpoint folders
+**/.ipynb_checkpoints/
+
+# Generated temporary files
+*.log
+*.tmp
