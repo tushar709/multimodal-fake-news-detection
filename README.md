@@ -292,26 +292,6 @@ http://localhost:8501
 
 The pretrained DistilBERT and CLIP models are downloaded from Hugging Face when first loaded, if they are not already cached.
 
-## 📸 Application Screenshots
-
-Add your application screenshots to a folder named `screenshots/` and use the following image references.
-
-### 1. Application Interface
-
-![Fake News Detection Interface](screenshots/homepage.png)
-
-### 2. Prediction Result
-
-![Prediction Result](screenshots/prediction.png)
-
-### 3. SHAP Explainability
-
-![SHAP Explanation](screenshots/shap-explanation.png)
-
-### 4. Verification and Mitigation
-
-![Verification and Mitigation](screenshots/verification.png)
-
 ## ⚠️ Limitations and Future Improvements
 
 ### Current Limitations
